@@ -1,0 +1,84 @@
+[
+  
+    
+        {
+            "title": "Case Converter",
+            "url": "/string-tools/case-converter.html"
+        }
+        ,
+    
+        {
+            "title": "Text Reverser",
+            "url": "/string-tools/text-reverser.html"
+        }
+        ,
+    
+        {
+            "title": "Text Repeater",
+            "url": "/string-tools/text-repeater.html"
+        }
+        ,
+    
+        {
+            "title": "Space remover",
+            "url": "/string-tools/space-remover.html"
+        }
+        
+    
+    ,
+  
+    
+        {
+            "title": "JS beautifier",
+            "url": "/code-beautifier/js.html"
+        }
+        ,
+    
+        {
+            "title": "Graphql beautifier",
+            "url": "/code-beautifier/graphql.html"
+        }
+        ,
+    
+        {
+            "title": "YAML beautifier",
+            "url": "/code-beautifier/yml.html"
+        }
+        ,
+    
+        {
+            "title": "HTML beautifier",
+            "url": "/code-beautifier/html.html"
+        }
+        ,
+    
+        {
+            "title": "CSS Beautifier",
+            "url": "/code-beautifier/css.html"
+        }
+        
+    
+    ,
+  
+    
+        {
+            "title": "JS Minifier",
+            "url": "/code-minifier/js.html"
+        }
+        ,
+    
+        {
+            "title": "HTML Minifier",
+            "url": "/code-minifier/html.html"
+        }
+        ,
+    
+        {
+            "title": "CSS Minifier",
+            "url": "/code-minifier/css.html"
+        }
+        
+    
+    
+  
+]

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
-    <link rel="stylesheet" href="/assets//css/theme.css" />
+    <link rel="stylesheet" href="/assets/css/theme.css" />
   </head>
   <body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg py-8 bg-primary border-bottom border-3 border-primary">
@@ -14,28 +14,18 @@
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#" tabindex="-1">Disabled</a>
-        </li>
-      </ul>
-    </div>
   </div>
 </nav>
     <section class="container-fluid py-120 search-wrapper">
   <section class="container">
     <h1 class="text-center mb-32">What are you looking for?</h1>
     <form>
-      <div class="position-relative">
-        <input type="text" class="form-control rounded-pill py-16 ps-28 border-2 border-primary fs-20" placeholder="Search here" aria-label="Recipient's username" aria-describedby="button-addon2">
-        <button class="position-absolute border-0 bg-transparent fs-32 search-icon" type="button" id="button-addon2"><span class="icon-search"></span></button>
+      <div class="position-relative border border-primary cto-rounded-border">
+        <input type="text" id="cto-searchbar" class="form-control border-0 py-16 ps-28  fs-20" placeholder="Search here" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <section class="cto-results-wrapper pb-16 px-28 fs-20 d-none cto-js-results-wrapper">
+          <ul class="no-bullet border-top pt-16 px-0 cto-js-result-items">
+          </ul>
+        </section>
     </div>
     </form>
   </section>
@@ -181,6 +171,7 @@
   </div>
 </footer>
   </body>
-    <script type="text/javascript" src="/assets//js/string.js"></script>
-    <script type="text/javascript" src="/assets//js/code-beautify.js"></script>
+    <script type="text/javascript" src="/assets/js/search.js"></script>
+    <script type="text/javascript" src="/assets/js/string.js"></script>
+    <script type="text/javascript" src="/assets/js/code-beautify.js"></script>
 </html>
