@@ -20,7 +20,7 @@
         ,
     
         {
-            "title": "Space remover",
+            "title": "Space Remover",
             "url": "/string-tools/space-remover.html"
         }
         
@@ -29,13 +29,13 @@
   
     
         {
-            "title": "JS beautifier",
+            "title": "JS Beautifier",
             "url": "/code-beautifier/js.html"
         }
         ,
     
         {
-            "title": "HTML beautifier",
+            "title": "HTML Beautifier",
             "url": "/code-beautifier/html.html"
         }
         ,
@@ -47,8 +47,29 @@
         ,
     
         {
-            "title": "Graphql beautifier",
+            "title": "Graphql Beautifier",
             "url": "/code-beautifier/graphql.html"
+        }
+        
+    
+    ,
+  
+    
+        {
+            "title": "Download Images",
+            "url": "/example-files/images.html"
+        }
+        ,
+    
+        {
+            "title": "Download Videos",
+            "url": "/example-files/videos.html"
+        }
+        ,
+    
+        {
+            "title": "Download Audios",
+            "url": "/example-files/audios.html"
         }
         
     
