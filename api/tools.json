@@ -35,18 +35,6 @@
         ,
     
         {
-            "title": "Graphql beautifier",
-            "url": "/code-beautifier/graphql.html"
-        }
-        ,
-    
-        {
-            "title": "YAML beautifier",
-            "url": "/code-beautifier/yml.html"
-        }
-        ,
-    
-        {
             "title": "HTML beautifier",
             "url": "/code-beautifier/html.html"
         }
@@ -56,26 +44,11 @@
             "title": "CSS Beautifier",
             "url": "/code-beautifier/css.html"
         }
-        
-    
-    ,
-  
-    
-        {
-            "title": "JS Minifier",
-            "url": "/code-minifier/js.html"
-        }
         ,
     
         {
-            "title": "HTML Minifier",
-            "url": "/code-minifier/html.html"
-        }
-        ,
-    
-        {
-            "title": "CSS Minifier",
-            "url": "/code-minifier/css.html"
+            "title": "Graphql beautifier",
+            "url": "/code-beautifier/graphql.html"
         }
         
     

@@ -13,7 +13,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>String case converter</title>
+    <title>CSS beautifier</title>
     <link rel="stylesheet" href="/assets/css/theme.css" />
   </head>
   <body class="d-flex flex-column min-vh-100">
@@ -26,28 +26,14 @@
   </div>
 </nav>
     <section class="editor-wrapper container-fliud px-16 py-48">
-    <h1 class="mb-16">Case Converter</h1>
+    <h1 class="mb-16">CSS beautifier</h1>
     <div class="row">
       <div class="col-md-5 input-wrapper">
         <textarea name="otInput" id="otInput" rows="20" class="no-resize w-100 border border-2 border-primary br-16 p-12 " ></textarea>
       </div>
       <div class="col-md-2 action-buttons-wrapper py-16">
         
-          <button class="btn btn-secondary w-100 rounded-pill mb-12 ot-action-btn " data-action="uppercase">Upper case</button>
-        
-          <button class="btn btn-secondary w-100 rounded-pill mb-12 ot-action-btn " data-action="lowercase">Lower case</button>
-        
-          <button class="btn btn-secondary w-100 rounded-pill mb-12 ot-action-btn " data-action="firstupper">First letter uppercase</button>
-        
-          <button class="btn btn-secondary w-100 rounded-pill mb-12 ot-action-btn " data-action="firstlower">First letter lowercase</button>
-        
-          <button class="btn btn-secondary w-100 rounded-pill mb-12 ot-action-btn " data-action="sentencecase">Sentence case</button>
-        
-          <button class="btn btn-secondary w-100 rounded-pill mb-12 ot-action-btn " data-action="camelcase">Camel case</button>
-        
-          <button class="btn btn-secondary w-100 rounded-pill mb-12 ot-action-btn " data-action="kebabcase">Kebab case</button>
-        
-          <button class="btn btn-secondary w-100 rounded-pill mb-12 ot-action-btn " data-action="snakecase">Snake case</button>
+          <button class="btn btn-secondary w-100 rounded-pill mb-12 ot-action-btn " data-action="css">Beautify CSS</button>
         
       </div>
       <div class="col-md-5 output-wrapper">
@@ -82,28 +68,11 @@
             
               <li><a href="/code-beautifier/js.html" class="text-light text-decoration-none">JS beautifier</a></li>
             
-              <li><a href="/code-beautifier/graphql.html" class="text-light text-decoration-none">Graphql beautifier</a></li>
-            
-              <li><a href="/code-beautifier/yml.html" class="text-light text-decoration-none">YAML beautifier</a></li>
-            
               <li><a href="/code-beautifier/html.html" class="text-light text-decoration-none">HTML beautifier</a></li>
             
               <li><a href="/code-beautifier/css.html" class="text-light text-decoration-none">CSS Beautifier</a></li>
             
-          </ul>
-        </section>
-      </div>
-    
-      <div class="col-md-3">
-        <section>
-          <header class="fs-20 fw-bold text-secondary">Code minifiers</header>
-          <ul class="ps-0 mb-0">
-            
-              <li><a href="/code-minifier/js.html" class="text-light text-decoration-none">JS Minifier</a></li>
-            
-              <li><a href="/code-minifier/html.html" class="text-light text-decoration-none">HTML Minifier</a></li>
-            
-              <li><a href="/code-minifier/css.html" class="text-light text-decoration-none">CSS Minifier</a></li>
+              <li><a href="/code-beautifier/graphql.html" class="text-light text-decoration-none">Graphql beautifier</a></li>
             
           </ul>
         </section>
@@ -114,6 +83,7 @@
   </body>
     <script type="text/javascript" src="/assets/js/search.js"></script>
     <script type="text/javascript" src="/assets/js/string.js"></script>
-    <script type="text/javascript" src="/assets/js/code-beautify.js"></script>
+    <!-- <script type="text/javascript" src="/assets/js/code-beautify.js"></script> -->
+    <script type="text/javascript" src="/assets/js/code-minify.js"></script>
     
 </html>
